@@ -9,15 +9,13 @@
 .menu button{
     font-family:'Nanum Gothic Coding','Inter','sans-serif';
     color: #ffffff;  
-    display: inline-block;
     background-color: #494848fb;
     border: none;        
     border-radius: 2px;
     padding: 10px 65px 10px 65px;   
-    margin: 2px;          
-    color: #fff;
+    margin: 2px;   
     position: relative;    
-    cursor: pointer;
+    cursor: pointer;               
 }
 .Header .menu button::before{
     content: "";
@@ -37,4 +35,20 @@
     bottom: -0.3rem;
     height: 3px;
     width: 100%;
+}
+/* About section*/
+.intro{
+    display: flex;
+}
+.intro .number {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family:'Nanum Gothic Coding','Inter','sans-serif';
+    color:#494848fb ;
+}
+.intro .text {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family:'Nanum Gothic Coding','Inter','sans-serif';
+    color:#494848fb ;
 }
