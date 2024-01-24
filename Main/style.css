@@ -1,0 +1,22 @@
+* {
+    background-color: #1F1E25;
+}
+/* Main header css code*/
+.Header .menu{
+    display: flex;
+    flex-direction: row;
+}
+.menu button{
+    font-family:'Nanum Gothic Coding','Inter','sans-serif';
+    color: #ffffff;  
+    background-color: #494848fb;
+    border: none;        
+    border-radius: 2px;
+    padding: 10px 65px 10px 65px;   
+    margin: 2px;                  
+}
+.menu button:hover{
+    cursor: pointer;
+    background-color:#1F1E25;
+    transition: 0.5s;
+}
