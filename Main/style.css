@@ -38,3 +38,9 @@
     height: 3px;
     width: 100%;
 }
+.footer a button{
+    display: inline-block;
+    background-color: #fa0000fb;
+    border: none;        
+    border-radius: 2px;    
+}
